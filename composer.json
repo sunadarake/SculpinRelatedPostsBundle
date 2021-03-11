@@ -1,0 +1,27 @@
+{
+    "name": "sunadarake/sculpin-related-posts-bundle",
+    "type": "library",
+    "description": "3rd party Sculpin Bundle that creates related posts",
+    "keywords": [
+        "sculpin",
+        "bundle",
+        "relatedPost"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sunadarake",
+            "email": "toumasuxp@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Darake\\SculpinRelatedPostsBundle\\": "src/"
+        }
+    },
+    "version": "1.0.0",
+    "require": {
+        "php": "^8.0 || ^7.3",
+        "sculpin/sculpin": "^3.1.0"
+    }
+}
