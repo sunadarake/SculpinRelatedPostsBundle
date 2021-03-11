@@ -34,12 +34,12 @@ class SculpinKernel extends AbstractKernel
 
 If you write the following in `_posts/example.md` file,
 
+~~~
 ```
-\```
 title: "exampleTitile"
-\```
+```
 exampleText
-``` 
+~~~ 
 you write the following in `_views/post.html` file.
 
 ```
