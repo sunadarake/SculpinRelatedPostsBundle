@@ -4,6 +4,6 @@ namespace Darake\SculpinRelatedPostsBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class SculpinRelatedPostsByTaxonomyBundle extends Bundle
+class SculpinRelatedPostsBundle extends Bundle
 {
 }

@@ -16,7 +16,7 @@ Add this bundle in your `app/SculpinKernel.php` file.
 <?php
 
 use Sculpin\Bundle\SculpinBundle\HttpKernel\AbstractKernel;
-use Darake\Sculpin\Bundle\RelatedPostsByTaxonomy\SculpinRelatedPostsByTaxonomyBundle;
+use Darake\SculpinRelatedPostsBundle;
 
 class SculpinKernel extends AbstractKernel
 {
