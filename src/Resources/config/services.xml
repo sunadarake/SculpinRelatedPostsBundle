@@ -4,14 +4,14 @@
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
   <parameters>
-    <parameter key="sculpin_related_posts_by_taxonomy.generator.class">Darake\SculpinRelatedPostsBundle\RelatedPostsGenerator</parameter>
+    <parameter key="sculpin_related_posts.generator.class">Darake\SculpinRelatedPostsBundle\RelatedPostsGenerator</parameter>
   </parameters>
 
   <services>
-    <service id="sculpin_related_posts_by_taxonomy.generator" class="%sculpin_related_posts_by_taxonomy.generator.class%">
+    <service id="sculpin_related_posts.generator" class="%sculpin_related_posts.generator.class%">
       <argument type="service" id="sculpin.source_permalink_factory" />
-      <argument>%sculpin_related_posts_by_taxonomy.max_per_page%</argument>
-      <argument>%sculpin_related_posts_by_taxonomy.taxonomy_type%</argument>
+      <argument>%sculpin_related_posts.max_per_page%</argument>
+      <argument>%sculpin_related_posts.taxonomy_type%</argument>
       <tag name="kernel.event_subscriber" />
     </service>
   </services>
